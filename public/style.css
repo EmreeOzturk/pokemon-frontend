@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #5225bd, #ade8f0);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.pokemon-form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.pokemon-form input,
+button {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+#app-name {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.pokemon-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+
+.pokemon-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 20px;
+}
+
+.pokemon-box img {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.pokemon-box h4 {
+    font-size: 1.5rem;
+}
+
+.pokemon-box p {
+    margin: 3px auto;
+}
